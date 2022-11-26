@@ -11,8 +11,8 @@ st.write("""
 
 st.header('Input Parameters')
 
-num1 = st.number_input("NUMBER 1",min_value=0.0,max_value=2000000.0)
-num2 = st.number_input("NUMBER 2",min_value=0.0,max_value=2000000.0)
+num1 = st.number_input("NUMBER 1",min_value=-2000000.0,max_value=2000000.0)
+num2 = st.number_input("NUMBER 2",min_value=-2000000.0,max_value=2000000.0)
     
 data = {'NUMBER 1': num1,'NUMBER 2': num2}
 
