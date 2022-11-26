@@ -2,3 +2,6 @@ streamlit==0.76.0
 seaborn==0.11.1
 joblib==0.16.0
 scikit-learn
+streamlit>=1.8.1
+protobuf~=3.19.0
+click==8.0
